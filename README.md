@@ -6,7 +6,7 @@ I spend most of my time on open source and security research. I find real bugs, 
 
 ## Open source
 
-46 merged pull requests across open source so far, 42 of them eligible merges in my current sprint toward 100. My work sits in mypy, Home Assistant, Payload CMS, Medusa, pnpm, prettier plugin-php, and a long list of smaller projects. I prefer fixes with tests over drive-by changes, and I stay on a thread until the maintainer is satisfied.
+47 merged pull requests across open source so far, in my current sprint toward 100. My work sits in mypy, Home Assistant, Payload CMS, Medusa, pnpm, prettier plugin-php, and a long list of smaller projects. I prefer fixes with tests over drive-by changes, and I stay on a thread until the maintainer is satisfied.
 
 ## Security research
 
@@ -25,11 +25,27 @@ Filed GitHub security advisories:
 - [GHSA-q43p-chvx-vpx2](https://github.com/alibaba/nacos/security/advisories/GHSA-q43p-chvx-vpx2), High, config authorization cluster
 - [GHSA-hm4f-5v62-vrm2](https://github.com/alibaba/nacos/security/advisories/GHSA-hm4f-5v62-vrm2), Moderate, unauthenticated gRPC lock handler
 - [GHSA-vffc-gmfm-fwh5](https://github.com/alibaba/nacos/security/advisories/GHSA-vffc-gmfm-fwh5), Moderate, unauthenticated admin bootstrap
+- [GHSA-mjpp-mhh4-69j9](https://github.com/alibaba/nacos/security/advisories/GHSA-mjpp-mhh4-69j9), High, OIDC authorization fails open
+- [GHSA-3qwh-8qph-35mg](https://github.com/alibaba/nacos/security/advisories/GHSA-3qwh-8qph-35mg), High, rolling upgrade latch disables cluster auth
+- [GHSA-qg9f-29q9-5f9x](https://github.com/alibaba/nacos/security/advisories/GHSA-qg9f-29q9-5f9x), Moderate, cipher configs stored in plaintext
 
 **Experiential**
 - [GHSA-3fwg-p649-gfhr](https://github.com/experientiallabs/experiential/security/advisories/GHSA-3fwg-p649-gfhr), High, batch grant bypass
 - [GHSA-5mj6-3wwp-4627](https://github.com/experientiallabs/experiential/security/advisories/GHSA-5mj6-3wwp-4627), High, budget bundle
 - [GHSA-8v36-qh6v-jgq4](https://github.com/experientiallabs/experiential/security/advisories/GHSA-8v36-qh6v-jgq4), High, capture working directory code execution
+- [GHSA-h5mm-j8x5-rh37](https://github.com/experientiallabs/experiential/security/advisories/GHSA-h5mm-j8x5-rh37), Moderate, planted .env leaks gateway key
+- [GHSA-g97v-p7hf-cxq6](https://github.com/experientiallabs/experiential/security/advisories/GHSA-g97v-p7hf-cxq6), Moderate, unauthenticated Pi agent bridge
+- [GHSA-p6vv-xw4p-p5vp](https://github.com/experientiallabs/experiential/security/advisories/GHSA-p6vv-xw4p-p5vp), Low, gateway usage and metrics without auth
+
+**OpenCode**
+- [GHSA-cvp8-pmjf-grpr](https://github.com/anomalyco/opencode/security/advisories/GHSA-cvp8-pmjf-grpr), High, stored XSS on share pages
+- [GHSA-6cwg-8rrp-47rr](https://github.com/anomalyco/opencode/security/advisories/GHSA-6cwg-8rrp-47rr), Moderate, webfetch redirect SSRF
+
+**GhidraMCP**
+- [GHSA-77r9-34rq-86x4](https://github.com/bethington/ghidra-mcp/security/advisories/GHSA-77r9-34rq-86x4), High, combined advisory
+
+**Robo**
+- [GHSA-q6qf-27wx-9gpm](https://github.com/igniteenow/robo/security/advisories/GHSA-q6qf-27wx-9gpm), High, combined advisory
 
 ## My own builds
 
